@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `AUS200_15m.csv` (3,743 rows, `2026-07-01` -> `2026-09-02`, 245.95 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aus200)** — **375,708** `15m` rows (full `1m`: 5,275,014), **11 timeframes**, `2008-09-10` -> `2026-09-02`.
+> **Sample on GitHub** · `AUS200_15m.csv` (3,696 rows, `2026-07-02` -> `2026-09-02`, 242.42 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aus200)** — **375,708** `15m` rows (full `1m`: 5,046,226), **11 timeframes**, `2008-09-10` -> `2026-09-02`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | S&P/ASX 200 · Index | S&P/ASX 200 · Index |
 | Timeframes | `15m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 15m rows | 3,743 | **375,708** |
-| Size | 245.95 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
-| Period | `2026-07-01` -> `2026-09-02` | `2008-09-10` -> `2026-09-02` |
+| 15m rows | 3,696 | **375,708** |
+| Size | 242.42 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
+| Period | `2026-07-02` -> `2026-09-02` | `2008-09-10` -> `2026-09-02` |
 | File | `AUS200_15m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
 | Coverage report | — | [AUS200 coverage](https://getdata.finance/coverage/aus200) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,11 +75,11 @@ First and latest rows from the GitHub sample **`AUS200_15m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-01T23:00:00+00:00 | 8710.21 | 8712.21 | 8703.21 | 8704.21 | 92.36653 |
-| 2026-07-01T23:15:00+00:00 | 8704.21 | 8709.21 | 8703.21 | 8709.21 | 73.19896 |
-| 2026-07-01T23:30:00+00:00 | 8709.21 | 8715.21 | 8705.21 | 8709.21 | 181.12176 |
-| 2026-07-01T23:45:00+00:00 | 8709.21 | 8722.4 | 8688.21 | 8717.38 | 544.10463 |
-| 2026-07-02T00:00:00+00:00 | 8717.38 | 8721.29 | 8671.79 | 8676.28 | 1872 |
+| 2026-07-02T11:15:00+00:00 | 8766.93 | 8767.42 | 8760.91 | 8763.92 | 84 |
+| 2026-07-02T11:30:00+00:00 | 8763.92 | 8765.93 | 8759.41 | 8759.43 | 122.42046 |
+| 2026-07-02T11:45:00+00:00 | 8759.43 | 8764.43 | 8757.43 | 8757.43 | 86 |
+| 2026-07-02T12:00:00+00:00 | 8757.43 | 8763.42 | 8754.42 | 8762.92 | 162 |
+| 2026-07-02T12:15:00+00:00 | 8762.92 | 8768.93 | 8762.41 | 8763.71 | 152 |
 
 **Last rows**
 
