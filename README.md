@@ -1,6 +1,6 @@
 # AUS200 15m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-375_708_rows-blue)](https://getdata.finance/datasets/aus200) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/aus200)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-376_122_rows-blue)](https://getdata.finance/datasets/aus200) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/aus200)
 
 ### -> [**Download the full AUS200 dataset on getdata.finance**](https://getdata.finance/datasets/aus200)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 15m OHLCV** for **S&P/ASX 200** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/aus200) · **375,708** `15m` rows in the full archive
+- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/aus200) · **376,122** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `AUS200_15m.csv` (3,696 rows, `2026-07-02` -> `2026-09-02`, 242.42 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aus200)** — **375,708** `15m` rows (full `1m`: 5,046,226), **11 timeframes**, `2008-09-10` -> `2026-09-02`.
+> **Sample on GitHub** · `AUS200_15m.csv` (10,850 rows, `2026-03-10` -> `2026-09-09`, 712.84 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aus200)** — **376,122** `15m` rows (full `1m`: 5,046,226), **11 timeframes**, `2008-09-10` -> `2026-09-09`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | S&P/ASX 200 · Index | S&P/ASX 200 · Index |
 | Timeframes | `15m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 15m rows | 3,696 | **375,708** |
-| Size | 242.42 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
-| Period | `2026-07-02` -> `2026-09-02` | `2008-09-10` -> `2026-09-02` |
+| 15m rows | 10,850 | **376,122** |
+| Size | 712.84 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
+| Period | `2026-03-10` -> `2026-09-09` | `2008-09-10` -> `2026-09-09` |
 | File | `AUS200_15m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/aus200) |
 | Coverage report | — | [AUS200 coverage](https://getdata.finance/coverage/aus200) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AUS200_15m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-02T11:15:00+00:00 | 8766.93 | 8767.42 | 8760.91 | 8763.92 | 84 |
-| 2026-07-02T11:30:00+00:00 | 8763.92 | 8765.93 | 8759.41 | 8759.43 | 122.42046 |
-| 2026-07-02T11:45:00+00:00 | 8759.43 | 8764.43 | 8757.43 | 8757.43 | 86 |
-| 2026-07-02T12:00:00+00:00 | 8757.43 | 8763.42 | 8754.42 | 8762.92 | 162 |
-| 2026-07-02T12:15:00+00:00 | 8762.92 | 8768.93 | 8762.41 | 8763.71 | 152 |
+| 2026-03-10T18:45:00+00:00 | 8728.47 | 8736.98 | 8721.46 | 8721.97 | 1571 |
+| 2026-03-10T19:00:00+00:00 | 8721.97 | 8731.48 | 8719.46 | 8730.96 | 1027 |
+| 2026-03-10T19:15:00+00:00 | 8730.96 | 8737.98 | 8719.46 | 8719.97 | 1129 |
+| 2026-03-10T19:30:00+00:00 | 8719.97 | 8728.48 | 8709.48 | 8718.98 | 1099 |
+| 2026-03-10T19:45:00+00:00 | 8718.98 | 8722.47 | 8707.46 | 8716.78 | 703 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-02T01:00:00+00:00 | 8929.49 | 8945.99 | 8926.5 | 8937.5 | 484 |
-| 2026-09-02T01:15:00+00:00 | 8937.5 | 8959 | 8936.5 | 8958.5 | 335 |
-| 2026-09-02T01:30:00+00:00 | 8958.5 | 8964.99 | 8942.49 | 8964.99 | 649 |
-| 2026-09-02T01:45:00+00:00 | 8964.99 | 8967 | 8953.98 | 8957.99 | 401 |
-| 2026-09-02T02:00:00+00:00 | 8957.99 | 8958.49 | 8956.99 | 8958.49 | 9 |
+| 2026-09-09T01:00:00+00:00 | 8892.6 | 8903.61 | 8885.59 | 8891.61 | 298 |
+| 2026-09-09T01:15:00+00:00 | 8891.61 | 8903.59 | 8890.59 | 8898.1 | 255 |
+| 2026-09-09T01:30:00+00:00 | 8898.1 | 8902.6 | 8889.6 | 8895.09 | 276 |
+| 2026-09-09T01:45:00+00:00 | 8895.09 | 8901.1 | 8894.1 | 8894.6 | 180 |
+| 2026-09-09T02:00:00+00:00 | 8894.6 | 8894.61 | 8892.11 | 8892.11 | 9 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **AUS200** archive on **[getdata.finance](https://getdata.finance/datasets/aus200)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **375,708** rows at `15m`, plus all other timeframes in the same ZIP.
+The complete **AUS200** archive on **[getdata.finance](https://getdata.finance/datasets/aus200)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **376,122** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AUS200 dataset on getdata.finance](https://getdata.finance/datasets/aus200)**
 
